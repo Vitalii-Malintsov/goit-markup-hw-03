@@ -42,9 +42,18 @@
   line-height: 16px;
   letter-spacing: 0.02em;
 }
+.logo:hover,
+.logo:focus,
 .header-page,
 .header-contact,
 .header-page:hover,
-.header-contact:hover {
-  color: var(--accent-color);
+.header-contact:hover, 
+.header-page:focus,
+.header-contact:focus
+  color:var(--accent-color);
+}
+button 
+{
+
+
 }
