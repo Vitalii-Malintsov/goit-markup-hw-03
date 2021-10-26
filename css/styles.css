@@ -1,68 +1,136 @@
 /*черный #212121*/
 /*серый #757575*/
 /*акцент #2196F3*/
+/*белый #ffffff*/
 
 :root {
   --title-color: #212121;
   --text-color: #757575;
-  --accent-color: #2196f3;
+  --link-color: #2196f3;
   --primary-fone-color: #ffffff;
+  --accent-color: orange;
 }
 
 .body {
-  font-family: Roboto;
+  color: var(--title-color);
   background: var(--primary-fone-color);
 }
-/*header*/
-.header {
-  position: absolute;
-  width: 1600px;
-  height: 80px;
-  color: var(--title-color);
+
+ul {
+  list-style: none;
 }
 
+/*header page*/
+
 .logo {
-  font-family: Raleway;
-  font-style: normal;
+  font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-  letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color: #000;
+}
+
+.logo-title {
+  color: var(--link-color);
 }
 
 .header-page {
   font-weight: 500;
   font-size: 14px;
+  line-height: 16px;
 }
 
 .header-contact {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+  color: var(--text-color);
 }
-.logo:hover,
-.logo:focus,
-.header-page,
-.header-contact,
+
+.logo:hover {
+  color: var(--accent-color);
+}
+
 .header-page:hover,
-.header-contact:hover, 
+.header-contact:hover,
 .header-page:focus,
-.header-contact:focus
-  color:var(--accent-color);
+.header-contact:focus {
+  color: var(--link-color);
 }
 
 .title {
-
+  background: #2f303a;
 }
 
 .title-name {
-
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: var(--primary-fone-color);
 }
 
-.button 
-{
+.button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--primary-fone-color);
+  background: var(--link-color);
+}
 
+/*feature*/
 
+.feature-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.feature-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--text-color);
+}
+
+/*Work*/
+.work {
+}
+
+.title-work {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+/*Command*/
+
+.command {
+  background: #f5f4fa;
+}
+
+.command-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.command-text {
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--text-color);
+}
+
+/*Footer*/
+.address {
+  background: #2f303a;
+}
+
+.address-map {
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--primary-fone-color);
+}
+
+.address-nav {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
 }
