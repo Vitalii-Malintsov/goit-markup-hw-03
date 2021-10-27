@@ -10,31 +10,34 @@
 
 <body>
         <!--Шапка страницы-->
-    <header>
+    <header class="header">
         <nav>
-            <a href="#">WebStudio</a>
+            <a href="#" class="logo"><span class="logo-title">Web</span>Studio</a>
             <ul>
-                <li><a href="./index.html">Студия</a></li>
-                <li><a href="./portfolio.html">Портфолио</a></li>
-                <li><a href="#">Контакты</a></li>
+                <li><a href="./index.html" class="header-page">Студия</a></li>
+                <li><a href="./portfolio.html" class="header-page">Портфолио</a></li>
+                <li><a href="./contact.html" class="header-page">Контакты</a></li>
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
             </ul>
         </nav>
             <ul>
-                <li><a href="Mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li><a href="Mailto:info@devstudio.com" class="header-contact">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="header-contact">+38 096 111 11 11</a></li>
             </ul>
-    </header>    
+    </header>
 
     <main>
 
         <!--Фильтр-->
             <section>
             <ul>
-                <button type="button">Все</button>
-                <button type="button">Веб-сайты</button>
-                <button type="button">Приложения</button>
-                <button type="button">Дизайн</button>
-                <button type="button">Маркетинг</button>
+                <button class="filter-button" type="button">Все</button>
+                <button class="filter-button" type="button">Веб-сайты</button>
+                <button class="filter-button" type="button">Приложения</button>
+                <button class="filter-button" type="button">Дизайн</button>
+                <button class="filter-button" type="button">Маркетинг</button>
             </ul>
         </section>
 
@@ -43,61 +46,61 @@
             <ul>
                 <li>
                     <img src="./images/application.jpg" alt="Веб-сайт" width="370">
-                    <h2>Технокряк</h2>
+                    <h2 class="portfolio-title">Технокряк</h2>
                     <p>Веб-сайт</p>
                 </li>
 
                 <li><img src="./images/design.jpg" alt="Дизайн" width="370">
-                    <h2>Постер New Orlean vs Golden Star</h2>
-                    <p>Дизайн</p>
+                    <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
+                    <p  class="portfolio-text">Дизайн</p>
                 </li>
 
                 <li><img src="./images/application.jpg" alt="Приложение" width="370">
-                    <h2>Ресторан Seafood</h2>
-                    <p>Приложение</p>
+                    <h2 class="portfolio-title">Ресторан Seafood</h2>
+                    <p  class="portfolio-text">Приложение</p>
                 </li>
 
                 <li><img src="./images/marketing.jpg" alt="Маркетинг" width="370">
-                    <h2>Проект Prime</h2>
-                    <p>Маркетинг</p>
+                    <h2 class="portfolio-title">Проект Prime</h2>
+                    <p  class="portfolio-text">Маркетинг</p>
 
                 <li><img src="./images/application2.jpg" alt="Приложение2" width="370">
-                    <h2>Проект Boxes</h2>
-                    <p>Приложение</p>
+                    <h2 class="portfolio-title">Проект Boxes</h2>
+                    <p  class="portfolio-text">Приложение</p>
 
                 <li>
                     <img src="./images/web-site2.jpg" alt="Веб-сайт2" width="370">
-                    <h2>Inspiration has no Borders</h2>
-                    <p>Веб-сайт</p>
+                    <h2 class="portfolio-title">Inspiration has no Borders</h2>
+                    <p  class="portfolio-text">Веб-сайт</p>
                 </li>
 
                 <li><img src="./images/design2.jpg" alt="Дизайн2" width="370">
-                    <h2>Издание Limited Edition</h2>
-                    <p>Дизайн</p>
+                    <h2 class="portfolio-title">Издание Limited Edition</h2>
+                    <p  class="portfolio-text">Дизайн</p>
                 </li>
 
                 <li><img src="./images/application2.jpg" alt="Маркетинг2" width="370">
-                    <h2>Проект LAB</h2>
-                    <p>Маркетинг</p>
+                    <h2 class="portfolio-title">Проект LAB</h2>
+                    <p  class="portfolio-text">Маркетинг</p>
                 </li>
 
                 <li><img src="./images/application3.jpg" alt="Приложение3" width="370">
-                    <h2>Growing Business</h2>
-                    <p>Приложение</p>
+                    <h2 class="portfolio-title">Growing Business</h2>
+                    <p  class="portfolio-text">Приложение</p>
 
                 </li>
             </ul>
         </section>
     </main>
 
-        <!--Подвал-->
-    <footer>
-        <a href="WebStudio.com">WebStudio</a>
+    <!--Подвал-->
+    <footer class="footer">
+        <a href="#" class="logo"><span class="logo-title">Web</span>Studio</a>
         <address>
             <ul>
-                <li><a href="#">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a href="Mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li><a href="#" class="map">г. Киев, пр-т Леси Украинки, 26</a></li>
+                <li><a href="Mailto:info@devstudio.com" class="nav">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="nav">+38 096 111 11 11</a></li>
             </ul>
         </address>
     </footer>

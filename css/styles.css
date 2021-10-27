@@ -12,6 +12,7 @@
 }
 
 .body {
+  font-family: 'Roboto', sans-serif;
   color: var(--title-color);
   background: var(--primary-fone-color);
 }
@@ -44,15 +45,18 @@ ul {
   color: var(--text-color);
 }
 
-.logo:hover {
-  color: var(--accent-color);
-}
-
 .header-page:hover,
 .header-contact:hover,
-.header-page:focus,
-.header-contact:focus {
+.map:hover,
+.nav:hover {
   color: var(--link-color);
+}
+
+.header-page:focus,
+.header-contact:focus,
+.map:focus,
+.nav:focus {
+  color: var(--accent-color);
 }
 
 .title {
@@ -90,10 +94,9 @@ ul {
 }
 
 /*Work*/
-.work {
-}
 
-.title-work {
+.title-work,
+.title-comand {
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -119,18 +122,52 @@ ul {
 }
 
 /*Footer*/
-.address {
+.footer {
   background: #2f303a;
 }
 
-.address-map {
+.map {
   font-size: 14px;
   line-height: 24px;
   color: var(--primary-fone-color);
 }
 
-.address-nav {
+.nav {
   font-size: 14px;
   line-height: 24px;
   color: rgba(255, 255, 255, 0.6);
+}
+
+/*Portfolio*/
+
+/*Filtr*/
+
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  background: #f5f4fa;
+}
+
+.filter-button:hover {
+  color: var(--primary-fone-color);
+  background: var(--link-color);
+}
+
+.filter-button {
+  cursor: pointer;
+}
+
+/*Portfolio-text*/
+
+.portfolio-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--text-color);
 }
