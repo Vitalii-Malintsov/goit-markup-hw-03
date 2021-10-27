@@ -154,10 +154,6 @@ ul {
   background: var(--link-color);
 }
 
-.filter-button {
-  cursor: pointer;
-}
-
 /*Portfolio-text*/
 
 .portfolio-title {
