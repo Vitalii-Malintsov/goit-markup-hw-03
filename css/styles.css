@@ -11,6 +11,8 @@
   --accent-color: orange;
 }
 
+/*Style studio page*/
+
 .body {
   font-family: 'Roboto', sans-serif;
   color: var(--title-color);
@@ -39,6 +41,7 @@ ul {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
+  color: var(--title-color);
 }
 
 .header-contact {
@@ -138,7 +141,7 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/*Portfolio*/
+/*Style portfolio page*/
 
 /*Filtr*/
 
