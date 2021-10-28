@@ -13,8 +13,9 @@
 
 /*Style studio page*/
 
-.body {
+body {
   font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
   color: var(--title-color);
   background: var(--primary-fone-color);
 }
@@ -26,25 +27,36 @@ ul {
 /*header page*/
 
 .logo {
-  font-family: Raleway, sans-serif;
-  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
+  text-decoration: none;
   color: #000;
 }
 
-.logo-title {
+.accent {
+  text-decoration: none;
   color: var(--link-color);
 }
 
 .header-page {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  color: var(--title-color);
+  line-height: 1.2;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.header-studio {
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--link-color);
 }
 
 .header-contact {
+  letter-spacing: 0.02em;
+  text-decoration: none;
   color: var(--text-color);
 }
 
@@ -63,20 +75,23 @@ ul {
 }
 
 .title {
+  letter-spacing: 0.06em;
   background: #2f303a;
 }
 
 .title-name {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.4;
+  text-align: center;
   color: var(--primary-fone-color);
 }
 
 .button {
-  font-weight: bold;
+  font-family: inherit;
+  font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   color: var(--primary-fone-color);
   background: var(--link-color);
 }
@@ -84,15 +99,14 @@ ul {
 /*feature*/
 
 .feature-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 16px;
 }
 
 .feature-text {
-  font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   color: var(--text-color);
 }
 
@@ -100,9 +114,10 @@ ul {
 
 .title-work,
 .title-comand {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  text-align: center;
+  line-height: 1.2;
 }
 
 /*Command*/
@@ -112,32 +127,34 @@ ul {
 }
 
 .command-title {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
 }
 
 .command-text {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
   color: var(--text-color);
 }
 
 /*Footer*/
+
 .footer {
   background: #2f303a;
 }
 
 .map {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
+  text-decoration: none;
   color: var(--primary-fone-color);
 }
 
 .nav {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
+  text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -145,10 +162,19 @@ ul {
 
 /*Filtr*/
 
+.portfolio-main {
+  background: #e5e5e5;
+}
+
+.header-portfolio {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
 .filter-button {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.7;
   background: #f5f4fa;
 }
 
@@ -160,13 +186,13 @@ ul {
 /*Portfolio-text*/
 
 .portfolio-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
 }
 
 .portfolio-text {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   color: var(--text-color);
 }
