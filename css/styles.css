@@ -10,18 +10,20 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-style: normal;
   letter-spacing: 0.03em;
   color: var(--title-color);
   background: var(--primary-fone-color);
 }
 
-ul {
+.list {
   list-style: none;
 }
 
 /*header page*/
 
-.logo {
+.logo,
+.footer-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -40,7 +42,7 @@ ul {
 .header-portfolio {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.14;
   text-decoration: none;
   letter-spacing: 0.02em;
   color: var(--title-color);
@@ -51,6 +53,9 @@ ul {
 }
 
 .header-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--text-color);
@@ -78,7 +83,7 @@ ul {
 .title-name {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.4;
+  line-height: 1.36;
   text-align: center;
   color: var(--primary-fone-color);
 }
@@ -140,6 +145,10 @@ ul {
   background: #2f303a;
 }
 
+address {
+  font-style: normal;
+}
+
 .footer-map {
   font-size: 14px;
   line-height: 1.7;
@@ -193,4 +202,7 @@ ul {
   font-size: 16px;
   line-height: 1.9;
   color: var(--text-color);
+}
+.footer-logo {
+  color: var(--primary-fone-color);
 }
