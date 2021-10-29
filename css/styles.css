@@ -39,6 +39,7 @@ body {
 
 .header-page,
 .header-studio,
+.header-contact,
 .header-portfolio {
   font-weight: 500;
   font-size: 14px;
@@ -53,11 +54,6 @@ body {
 }
 
 .header-contact {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
   color: var(--text-color);
 }
 
@@ -92,7 +88,7 @@ body {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.88;
   color: var(--primary-fone-color);
   background: var(--link-color);
 }
@@ -102,7 +98,7 @@ body {
 .feature-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
 }
 
 .feature-text {
@@ -147,6 +143,10 @@ body {
 
 address {
   font-style: normal;
+}
+
+.footer-logo {
+  color: var(--primary-fone-color);
 }
 
 .footer-map {
@@ -202,7 +202,4 @@ address {
   font-size: 16px;
   line-height: 1.9;
   color: var(--text-color);
-}
-.footer-logo {
-  color: var(--primary-fone-color);
 }
