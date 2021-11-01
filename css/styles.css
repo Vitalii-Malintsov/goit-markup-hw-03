@@ -85,8 +85,6 @@ body {
 .title {
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 200px;
-  padding-bottom: 200px;
   text-align: center;
   letter-spacing: 0.06em;
   background: #2f303a;
@@ -148,8 +146,6 @@ body {
 /*Command*/
 
 .command {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background: #f5f4fa;
 }
 
@@ -177,8 +173,6 @@ body {
 /*Footer*/
 
 .footer {
-  padding-top: 60x;
-  padding-bottom: 60px;
   background: #2f303a;
 }
 
