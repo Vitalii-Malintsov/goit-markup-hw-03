@@ -13,14 +13,23 @@ body {
   font-style: normal;
   letter-spacing: 0.03em;
   color: var(--title-color);
-  background: var(--primary-fone-color);
+  background-color: var(--primary-fone-color);
 }
 
 .list {
+  padding: 0pt;
+  margin: 0px;
   list-style: none;
 }
 
 /*header page*/
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  outline: 2px solid tomato;
+}
 
 .logo,
 .footer-logo {
@@ -71,24 +80,37 @@ body {
   color: var(--accent-color);
 }
 
+/*Title*/
+
 .title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
   letter-spacing: 0.06em;
   background: #2f303a;
 }
 
 .title-name {
+  margin-top: 0px;
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   color: var(--primary-fone-color);
 }
 
 .button {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 4px;
+  padding: 10px 32px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+
   color: var(--primary-fone-color);
   background: var(--link-color);
 }
@@ -96,12 +118,16 @@ body {
 /*feature*/
 
 .feature-title {
+  margin-top: 0px;
+  margin-bottom: 26px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
 }
 
 .feature-text {
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-size: 14px;
   line-height: 1.7;
   color: var(--text-color);
@@ -111,6 +137,8 @@ body {
 
 .title-work,
 .title-comand {
+  margin-top: 0px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   text-align: center;
@@ -120,16 +148,27 @@ body {
 /*Command*/
 
 .command {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background: #f5f4fa;
 }
 
+.image {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
 .command-title {
+  margin-top: 0px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
 }
 
 .command-text {
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-size: 16px;
   line-height: 1.2;
   color: var(--text-color);
@@ -138,6 +177,8 @@ body {
 /*Footer*/
 
 .footer {
+  padding-top: 60x;
+  padding-bottom: 60px;
   background: #2f303a;
 }
 
@@ -146,10 +187,14 @@ address {
 }
 
 .footer-logo {
+  margin-top: 0px;
+  margin-bottom: 20px;
   color: var(--primary-fone-color);
 }
 
 .footer-map {
+  margin-top: 0px;
+  margin-bottom: 9px;
   font-size: 14px;
   line-height: 1.7;
   text-decoration: none;
@@ -157,6 +202,8 @@ address {
 }
 
 .footer-nav {
+  margin-top: 0px;
+  margin-bottom: 9px;
   font-size: 14px;
   line-height: 1.7;
   text-decoration: none;
