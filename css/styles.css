@@ -65,13 +65,6 @@ body {
 .site-nav,
 .contact {
   display: flex;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  text-decoration: none;
-  letter-spacing: 0.02em;
-  color: var(--title-color);
-  outline: 2px solid greenyellow;
 }
 
 .contact {
@@ -90,6 +83,11 @@ body {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
 }
 
 .header-studio {
@@ -144,17 +142,19 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-
   color: var(--primary-fone-color);
   background: var(--link-color);
 }
 
 /*feature*/
 
-.feature {
-  display: flex;
+.features {
   margin-top: 0px;
   margin-bottom: 93px;
+}
+
+.feature {
+  display: flex;
 }
 
 .feature .item {
@@ -172,7 +172,6 @@ body {
 .feature-text {
   margin-top: 0px;
   margin-bottom: 0px;
-
   font-size: 14px;
   line-height: 1.7;
   color: var(--text-color);
@@ -181,6 +180,7 @@ body {
 /*Work*/
 
 .works {
+  margin-top: 0px;
   margin-bottom: 94px;
 }
 
@@ -205,18 +205,32 @@ body {
 /*Command*/
 
 .command {
-  padding-bottom: 94px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   background: #f5f4fa;
 }
 
+.command-box {
+  display: inline-flex;
+  padding-bottom: 94px;
+}
+
+.command-box .item {
+  color: var(primary-fone-color);
+}
+
+.command-box .item + .item {
+  margin-left: 30px;
+}
+
 .image {
-  margin-top: 0px;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .command-title {
   margin-top: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -225,6 +239,7 @@ body {
 .command-text {
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.2;
   color: var(--text-color);
