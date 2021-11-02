@@ -87,7 +87,7 @@ body {
   font-size: 14px;
   text-decoration: none;
   letter-spacing: 0.02em;
-  color: var(--title-color);
+  color: inherit;
 }
 
 .header-studio {
@@ -184,8 +184,7 @@ body {
   margin-bottom: 94px;
 }
 
-.title-work,
-.title-comand {
+.title-work {
   margin-top: 0px;
   margin-bottom: 50px;
   font-weight: 700;
@@ -210,13 +209,29 @@ body {
   background: #f5f4fa;
 }
 
+.title-command {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 94px;
+  padding-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  line-height: 1.2;
+}
+
 .command-box {
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   padding-bottom: 94px;
 }
 
 .command-box .item {
-  color: var(primary-fone-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background: var(--primary-fone-color);
 }
 
 .command-box .item + .item {
@@ -234,6 +249,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
+  text-align: center;
 }
 
 .command-text {
@@ -242,6 +258,7 @@ body {
   padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.2;
+  text-align: center;
   color: var(--text-color);
 }
 
@@ -253,19 +270,31 @@ body {
   background: #2f303a;
 }
 
-address {
+.footer-box {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-item {
   font-style: normal;
+}
+
+.footer-item .item:not(:last-child) {
+  padding-bottom: 9px;
 }
 
 .footer-logo {
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
   color: var(--primary-fone-color);
 }
 
 .footer-map {
   margin-top: 0px;
-  margin-bottom: 9px;
+  margin-bottom: 0px;
   font-size: 14px;
   line-height: 1.7;
   text-decoration: none;
@@ -274,7 +303,7 @@ address {
 
 .footer-nav {
   margin-top: 0px;
-  margin-bottom: 9px;
+  margin-bottom: 0px;
   font-size: 14px;
   line-height: 1.7;
   text-decoration: none;
