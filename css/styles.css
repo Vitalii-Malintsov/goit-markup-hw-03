@@ -6,7 +6,7 @@
   --accent-color: orange;
 }
 
-/*Style studio page*/
+/*---------Style Studio page---------*/
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -17,6 +17,11 @@ body {
 }
 
 /*utility*/
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .list {
   padding: 0px;
@@ -79,7 +84,7 @@ body {
 .header-studio,
 .header-page,
 .header-contact,
-.header-portfolio {
+.header-porfolio {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -90,7 +95,8 @@ body {
   color: inherit;
 }
 
-.header-studio {
+.header-studio,
+.header-porfolio {
   color: var(--link-color);
 }
 
@@ -115,8 +121,6 @@ body {
 /*Title*/
 
 .title {
-  margin-top: 0px;
-  margin-bottom: 94px;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -146,19 +150,14 @@ body {
   background: var(--link-color);
 }
 
-/*feature*/
+/*Feature*/
 
-.features {
-  margin-top: 0px;
-  margin-bottom: 93px;
-}
-
-.feature {
+.feature-box {
   display: flex;
 }
 
-.feature .item {
-  padding-right: 30px;
+.feature-box .item {
+  margin-right: 30px;
 }
 
 .feature-title {
@@ -177,14 +176,9 @@ body {
   color: var(--text-color);
 }
 
-/*Work*/
+/*Works*/
 
-.works {
-  margin-top: 0px;
-  margin-bottom: 94px;
-}
-
-.title-work {
+.work-title {
   margin-top: 0px;
   margin-bottom: 50px;
   font-weight: 700;
@@ -204,16 +198,12 @@ body {
 /*Command*/
 
 .command {
-  margin-top: 0px;
-  margin-bottom: 0px;
   background: #f5f4fa;
 }
 
 .title-command {
   margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   text-align: center;
@@ -224,7 +214,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding-bottom: 94px;
 }
 
 .command-box .item {
@@ -239,13 +228,12 @@ body {
 }
 
 .image {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .command-title {
   margin-top: 0px;
-  margin-bottom: 0px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -254,8 +242,7 @@ body {
 
 .command-text {
   margin-top: 0px;
-  margin-bottom: 0px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -265,16 +252,14 @@ body {
 /*Footer*/
 
 .footer {
+  background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-  background: #2f303a;
 }
 
 .footer-box {
   display: flex;
   flex-direction: column;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .footer-item {
@@ -282,13 +267,12 @@ body {
 }
 
 .footer-item .item:not(:last-child) {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .footer-logo {
   margin-top: 0px;
-  margin-bottom: 0px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   color: var(--primary-fone-color);
 }
 
@@ -310,20 +294,21 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/*Style portfolio page*/
+/*---------Style Portfolio page---------*/
 
 /*Filtr*/
 
-.portfolio-main {
-  background: #e5e5e5;
+.filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
-.header-portfolio {
-  color: var(--link-color);
+.filter .item + .item {
+  margin-left: 8px;
 }
 
 .filter-button {
-  display: inline-block;
   border: 1px solid transparent;
   border-radius: 4px;
   padding: 6.33px 22px;
@@ -332,7 +317,6 @@ body {
   font-size: 16px;
   line-height: 1.6;
   background: #f5f4fa;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 
@@ -341,16 +325,30 @@ body {
   background: var(--link-color);
 }
 
-/*Portfolio-text*/
+/*work examples*/
 
-.filter-images {
+.examples {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.examples .item {
+  align-content: space-around;
+  background: var(--primary-fone-color);
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
+.portfolio-images {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
 
 .portfolio-title {
   margin-top: 0px;
   margin-bottom: 4px;
+  padding-left: 24px;
+  padding-right: 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -358,7 +356,9 @@ body {
 
 .portfolio-text {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
   font-size: 16px;
   line-height: 1.9;
   color: var(--text-color);
