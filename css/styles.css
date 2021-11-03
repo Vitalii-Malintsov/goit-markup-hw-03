@@ -40,7 +40,7 @@ body {
 
 /*Header page*/
 
-.box {
+header {
   border-bottom: 1px solid #ececec;
 }
 
@@ -151,17 +151,22 @@ body {
 
 /*Feature*/
 
+.feature {
+  padding-bottom: 0px;
+}
+
 .feature-box {
   display: flex;
 }
 
 .feature-box .item {
   margin-right: 30px;
+  width: 270px;
 }
 
 .feature-title {
   margin-top: 0px;
-  margin-bottom: 26px;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -187,7 +192,7 @@ body {
 }
 
 .work {
-  display: inline-flex;
+  display: flex;
 }
 
 .work .item + .item {
@@ -226,25 +231,22 @@ body {
   margin-left: 30px;
 }
 
-.image {
-  margin-bottom: 30px;
+.command-item {
+  padding: 30px 0px;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
 }
 
 .command-title {
   margin-top: 0px;
   margin-bottom: 10px;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.2;
-  text-align: center;
 }
 
 .command-text {
   margin-top: 0px;
-  margin-bottom: 30px;
-  font-size: 16px;
-  line-height: 1.2;
-  text-align: center;
+  margin-bottom: 0px;
   color: var(--text-color);
 }
 
@@ -348,16 +350,22 @@ body {
   margin-bottom: 0px;
 }
 
+.portfolio-item {
+  padding: 20px 24px;
+  box-sizing: border-box;
+  border: 1px solid #eeeeee;
+  border-top: none;
+  background: var(--primary-fone-color);
+}
+
 .portfolio-images {
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .portfolio-title {
   margin-top: 0px;
   margin-bottom: 4px;
-  padding-left: 24px;
-  padding-right: 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -365,9 +373,7 @@ body {
 
 .portfolio-text {
   margin-top: 0px;
-  margin-bottom: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
+  margin-bottom: 0px;
   font-size: 16px;
   line-height: 1.9;
   color: var(--text-color);
